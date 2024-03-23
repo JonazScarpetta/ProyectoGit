@@ -108,3 +108,29 @@ https://developer.mozilla.org/es/docs/WEB/CSS/Pseudo-classes
 .form-pseudoclases *:valid {
   border-color: green;
 }
+
+.form-pseudoclases *:invalid {
+  border-color: red;
+}
+
+.form-pseudoclases *:focus {
+  background-color: skyblue;
+}
+
+.form-pseudoclases *:disabled {
+  background-color: pink;
+}
+.menu-pseudoclases a:visited {
+  color: olive;
+}
+.menu-pseudoclases a:hover {
+  color: orange;
+}
+
+.p-pseudoclases:hover {
+  font-size: 20px;
+}
+
+#temario-css:target {
+  background-color: lightgreen;
+}
